@@ -11,3 +11,6 @@ function showImage(i){
 
     for(i=0; i<images.length; i++)
     images[i].getElementsByClassName.display="none";
+    
+    for(i=0 ; i<dots.length; i++)
+    dots[i].className=dots[i].className.replace("active", "");
