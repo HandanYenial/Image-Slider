@@ -17,3 +17,6 @@ function showImage(i){
     
     if(index>images.length-1)
     index=0;
+    
+    if(index<0)
+    index=images.length-1;
